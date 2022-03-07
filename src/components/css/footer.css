@@ -1,0 +1,16 @@
+.app>.Footer {
+    grid-column: span 12;
+    grid-row: 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(/src/assets/middle/phorse-g-png.png);
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: auto;
+}

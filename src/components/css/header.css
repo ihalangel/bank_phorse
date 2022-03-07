@@ -1,0 +1,125 @@
+/*AQUI EL HEADER EN FLEX */
+
+.app>header {
+    display: flex;
+    grid-column: span 12;
+    grid-row: span 1;
+    flex: 0 1 auto;
+    background-color: #222;
+    padding-top: 4px;
+    justify-content: space-between;
+}
+
+header>img {
+    width: 125px;
+    height: 5vh;
+}
+
+
+/* AQUI el button conect Wallet metido en un div para justificar bettew*/
+
+.divbtn>button {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #006680;
+    font-size: 17px;
+    font-family: Poppins, 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+.current-account {
+    justify-self: auto;
+    width: auto;
+    contain: content;
+    justify-content: space-around;
+    margin-left: 0%;
+    padding-top: 5vh;
+    padding-left: 0%;
+    align-self: start;
+    align-items: initial;
+    width: inherit;
+    top: 1rem;
+    overflow: hidden;
+}
+
+.current-account>h5 {
+    align-self: flex-start;
+}
+
+
+/* Tablero - Balance  Componente 
+curiosidad Padding interno*/
+
+.cnt-wallet-balance {
+    height: max-content;
+    background-color: black;
+    background: linear-gradient(#ead2ab, 10%, rgb(39, 36, 36));
+    align-self: start;
+    align-items: center;
+    top: 4px;
+    right: 4px;
+    position: absolute;
+    border-radius: 5%;
+    border-color: #ead2ab;
+    border: 3%;
+    border-style: solid;
+    color: #fff;
+    text-shadow: 0 0 3px #020202;
+}
+
+
+/*
+
+
+
+
+.login-button {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #006680;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+.login-button:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+
+.login-button:active {
+    position: relative;
+    top: 1px;
+}
+
+
+
+
+
+
+*/

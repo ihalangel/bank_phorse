@@ -1,0 +1,72 @@
+Contract {
+    interface: Interface, 
+    provider: Web3Provider, 
+    signer: JsonRpcSigner, 
+    callStatic: {…}, 
+    estimateGas: {…}, …}address: "0x153D7D32ed86613372d2B69587b7364663ff70bf"
+    
+    
+    callStatic: {allowance(address,address): ƒ, approve(address,uint256): ƒ, 
+    balanceOf(address): ƒ, decimals(): ƒ, decreaseAllowance(address,uint256): ƒ, …}
+    
+    
+    estimateGas: {allowance(address,address): ƒ, approve(address,uint256): ƒ, 
+    balanceOf(address): ƒ, decimals(): ƒ, decreaseAllowance(address,uint256): ƒ, …}
+
+      functions: {allowance(address,address): ƒ, approve(address,uint256): ƒ,
+     balanceOf(address): ƒ, decimals(): ƒ, decreaseAllowance(address,uint256): ƒ, …}
+
+     populateTransaction: {allowance(address,address): ƒ, approve(address,uint256): ƒ, 
+     balanceOf(address): ƒ, decimals(): ƒ, decreaseAllowance(address,uint256): ƒ, …}
+         
+    
+    filters: {Approval(address,address,uint256): ƒ, MinterChanged(address,address): ƒ, 
+    Transfer(address,address,uint256): ƒ, Approval: ƒ, MinterChanged: ƒ, …}
+    
+  
+     
+     
+     interface: Interface {fragments: Array(18), _abiCoder: AbiCoder, 
+     
+     functions: {…}, 
+     errors: {…}, 
+     events: {…}, …}
+     
+     
+     
+     provider: Web3Provider {_isProvider: true, _events: Array(0), _emitted: {…}, 
+     formatter: Formatter, anyNetwork: false, …}
+     
+     resolvedAddress: Promise {<fulfilled>: '0x153D7D32ed86613372d2B69587b7364663ff70bf'}
+     signer: JsonRpcSigner {_isSigner: true, provider: Web3Provider, _index: 0, 
+     _address: null}
+     
+     _runningEvents: {}_wrappedEmits: {}[[Prototype]]: BaseContract
+
+
+
+
+
+
+    /SIN ARGUMENTOS
+    symbol: ƒ (...args)symbol(): ƒ (...args)
+    totalSupply: ƒ (...args) totalSupply(): ƒ (...args)
+    minter: ƒ (...args)minter(): ƒ (...args)
+    name: ƒ (...args)name(): ƒ (...args)
+    decimals: ƒ (...args)decimals(): ƒ (...args)
+     
+     // SOLO 1 ARGUMENTO
+     passMinterRole: ƒ (...args)passMinterRole(address): ƒ (...args)
+     balanceOf: ƒ (...args)balanceOf(address): ƒ (...args)
+    
+    //2 ARGUMENTOS
+    transfer: ƒ (...args)transfer(address,uint256): ƒ (...args  
+     mint: ƒ (...args)mint(address,uint256): ƒ (...args)
+     decreaseAllowance: ƒ (...args)decreaseAllowance(address,uint256): ƒ (...args)
+     increaseAllowance: ƒ (...args)increaseAllowance(address,uint256): ƒ (...args)
+     allowance: ƒ (...args) allowance(address,address): ƒ (...args)
+     approve: ƒ (...args) approve(address,uint256): ƒ (...args)
+    
+    3 ARGUMENTOS
+     transferFrom: ƒ (...args)transferFrom(address,address,uint256): ƒ (...args)
+    

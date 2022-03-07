@@ -1,0 +1,193 @@
+.app>.Middle {
+    grid-column: span 7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(/src/assets/middle/phorse-g-png.png);
+    background-color: rgba(red, green, blue, 85);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: auto;
+}
+
+h1 {
+    color: #e1e2ed;
+    text-align: center;
+    align-self: baseline;
+    top: 8px;
+    font-size: 32px;
+}
+
+p {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    color: #e1e2ed;
+    font-family: Poppins, Courier, monospace;
+    font-size: 16px;
+}
+
+
+/*.Middle>img {
+    align-self: center;
+    word-spacing: 1em;
+    width: fit-content;
+    padding-left: 1rem;
+    display: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 5%;
+}
+
+*/
+
+
+/* Esto es el contenedor echange middles*/
+
+.app>.exchange-base {
+    grid-column: 8 /13;
+    grid-row: 2/ 3;
+    background: linear-gradient(#ead2ab, 10%, rgb(39, 36, 36));
+    border-radius: 5%;
+    right: 5px;
+    align-items: center;
+    align-self: auto;
+    justify-items: center;
+    contain: strict;
+}
+
+
+/* Buy campo encierra los inputs y botones de compa y venta*/
+
+.buy-campo {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 20px;
+    justify-content: center;
+    text-justify: center;
+    justify-items: stretch;
+    justify-items: auto;
+    row-gap: 16px;
+    column-gap: 8px;
+}
+
+.buy-campo>input {
+    background: #C9CCD3;
+    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M1 3h1v1H1V3zm2-2h1v1H3V1z"%3E%3C/path%3E%3C/svg%3E'), linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 0.75em;
+    color: #1c1a27;
+    text-shadow: 0 0 3px #ead2ab;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.25s;
+    align-self: center;
+    overflow: hidden;
+}
+
+.input:focus {
+    border-color: #888;
+}
+
+.txt-trade {
+    margin-top: 8px;
+    text-align: center;
+    color: #e1e2ed;
+    font-size: 17px;
+    font-weight: bolder;
+    padding: 1px 4px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #006680;
+}
+
+.buy-button {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    cursor: pointer;
+    color: #006680;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+.buy-button:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+
+.buy-button:active {
+    position: relative;
+    top: 1px;
+}
+
+.sell-button {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    cursor: pointer;
+    color: #921909;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+.sell-button:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+
+.sell-button:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/*Responsive Desto */
+
+@media screen and (min-width:900px) {
+    .app>.Middle {
+        grid-column: 2/7;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        background-image: url(/src/assets/middle/phorse-g-png.png);
+        background-color: rgba(red, green, blue, 85);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        min-height: auto;
+    }
+    .app>.exchange-base {
+        grid-column: 9 /13;
+        grid-row: 2/ 3;
+        background: linear-gradient(#ead2ab, 10%, rgb(39, 36, 36));
+        border-radius: 5%;
+        right: 5px;
+        align-items: center;
+        align-self: auto;
+        justify-items: center;
+        padding-right: 2em;
+    }
+}
