@@ -3,7 +3,7 @@
 .app>header {
     display: flex;
     grid-column: span 12;
-    grid-row: span 1;
+    grid-row: 1;
     flex: 0 1 auto;
     background-color: #222;
     padding-top: 4px;

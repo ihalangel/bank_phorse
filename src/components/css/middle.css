@@ -1,5 +1,6 @@
 .app>.Middle {
     grid-column: span 7;
+    grid-row: 3;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -50,7 +51,7 @@ p {
 
 .app>.exchange-base {
     grid-column: 8 /13;
-    grid-row: 2/ 3;
+    grid-row: 3/ 4;
     background: linear-gradient(#ead2ab, 10%, rgb(39, 36, 36));
     border-radius: 5%;
     right: 5px;
@@ -166,6 +167,7 @@ p {
 @media screen and (min-width:900px) {
     .app>.Middle {
         grid-column: 2/7;
+        grid-row: 3;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -181,7 +183,7 @@ p {
     }
     .app>.exchange-base {
         grid-column: 9 /13;
-        grid-row: 2/ 3;
+        grid-row: 3/ 4;
         background: linear-gradient(#ead2ab, 10%, rgb(39, 36, 36));
         border-radius: 5%;
         right: 5px;

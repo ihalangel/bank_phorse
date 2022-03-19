@@ -4,8 +4,7 @@ export { default as Navbar }
 from './Navbar';
 export { default as SendTransaction }
 from './SendTransaction';
-export { default as MinarToken }
-from './MinarToken';
+
 export { default as Header }
 from './Header';
 export { default as Sell_P }
@@ -14,3 +13,5 @@ export { default as Middle }
 from './Middle';
 export { default as Footer }
 from './Footer';
+export { default as MintNft }
+from './MintNft';
